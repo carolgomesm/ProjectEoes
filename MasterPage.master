@@ -1,0 +1,60 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <link rel="stylesheet" href="/css/main.css" />
+    <link rel="stylesheet" href="/css/bootstrap.css" />
+    <link href="/css/docs.min.css" rel="stylesheet"/>
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="/js/main.js"></script>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+        <!-- top navbar -->
+    <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a href="/" class="navbar-brand">EatOutEatSafe</a>
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li><a href="Home">Home</a></li>
+                    <li><a href="Home">About</a></li>
+                    <li><a href="Home">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+    <div>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    
+
+        <!-- footer -->
+    <footer class="bs-docs-footer" role="contentinfo">
+        <div class="container">
+            <ul class="bs-docs-footer-links">
+                <li><a href=https://github.com/twbs/bootstrap>About</a></li>
+                 <li><a href=https://twitter.com/getbootstrap>Twitter</a></li> 
+                <li><a href=../getting-started/#examples>Restaurants</a></li> 
+                <li><a href="../about/">FAQ</a></li>
+                <li><a href="../about/">Contact US</a></li>
+            </ul> 
+            <p>Designed and built with all the love in the world by Eat Out Eat Safe Inc.</p> 
+        </div> 
+    </footer> 
+</body>
+</html>

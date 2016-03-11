@@ -1,0 +1,67 @@
+﻿body {
+}
+
+.content {
+}
+
+.search {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 25%;
+    max-width: 900px;
+}
+
+.search_ico {
+    width: 20px;
+    float: right;    
+}
+
+.re_tab{
+    width: 33%;
+    text-align: center;
+}
+
+.searchBar{
+    margin: auto;
+    max-width: 900px;
+}
+
+#searchDiv {
+    cursor: pointer;
+}
+
+.checkbox-group{
+    color: #111111;
+    text-shadow:#fff 0 0 10px;
+}
+
+.list_img {
+    width: 150px;
+}
+
+.caption h4 {
+    <!--white-space: nowrap;-->
+}
+
+.thumbnail img {
+    width: 100%;
+}
+
+.ratings {
+    padding-right: 10px;
+    padding-left: 10px;
+    color: #d17581;
+}
+
+.thumbnail {
+    padding: 0;
+}
+
+.thumbnail .caption-full {
+    padding: 9px;
+    color: #333;
+}
+
+.footer {
+    text-align:center;
+}
